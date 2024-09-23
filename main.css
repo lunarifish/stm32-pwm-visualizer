@@ -40,7 +40,7 @@ body {
   background-color: green;
 }
 .cnt-register .ccr-border {
-  border-bottom: 4px solid yellow;
+  border-bottom: 4px solid blueviolet;
 }
 .grid-container {
   display: grid;
