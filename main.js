@@ -105,7 +105,7 @@ function updateParameters() {
                 <h3>CCR: ${parameters.ccr}</h3>
                 <hr>
                 <h3>占空比: ${parameters.ccr / (parameters.cnt_max + 1) * 100}%</h3>
-                <h3>PWM频率: ${tim_freq / parameters.cnt_max + 1} Hz
+                <h3>PWM频率: ${tim_freq / (parameters.cnt_max + 1)} Hz
                 <h3>等效电压: ${(parameters.ccr / parameters.cnt_max) * 3.3} V
             `;
     if (interval_handle) {
