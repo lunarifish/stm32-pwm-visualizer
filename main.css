@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.parameter {
+  margin-bottom: 20px;
+}
+.parameter label {
+  display: block;
+  margin-bottom: 5px;
+}
+.parameter input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+.cnt-register {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+.cnt-register td {
+  border: 1px solid #ccc;
+  height: 20px;
+}
+.cnt-register .active-under {
+  background-color: red;
+}
+.cnt-register .active-over {
+  background-color: green;
+}
+.cnt-register .ccr-border {
+  border-bottom: 4px solid yellow;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
